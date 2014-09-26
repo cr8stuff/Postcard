@@ -13,6 +13,9 @@
 		25FFB47E19CE2E0700D76AC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FFB47D19CE2E0700D76AC2 /* Images.xcassets */; };
 		25FFB48119CE2E0700D76AC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FFB47F19CE2E0700D76AC2 /* LaunchScreen.xib */; };
 		25FFB48D19CE2E0700D76AC2 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FFB48C19CE2E0700D76AC2 /* PostcardTests.swift */; };
+		25FFB49719CF0A8200D76AC2 /* andrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25FFB49619CF0A8200D76AC2 /* andrew.jpg */; };
+		25FFB49819CF0A8200D76AC2 /* andrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25FFB49619CF0A8200D76AC2 /* andrew.jpg */; };
+		25FFB49A19CF255400D76AC2 /* ben.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25FFB49919CF255400D76AC2 /* ben.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 		25FFB48619CE2E0700D76AC2 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FFB48B19CE2E0700D76AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25FFB48C19CE2E0700D76AC2 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		25FFB49619CF0A8200D76AC2 /* andrew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = andrew.jpg; sourceTree = "<group>"; };
+		25FFB49919CF255400D76AC2 /* ben.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ben.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,8 @@
 		25FFB48A19CE2E0700D76AC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25FFB49919CF255400D76AC2 /* ben.jpg */,
+				25FFB49619CF0A8200D76AC2 /* andrew.jpg */,
 				25FFB48B19CE2E0700D76AC2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +201,8 @@
 			files = (
 				25FFB47C19CE2E0700D76AC2 /* Main.storyboard in Resources */,
 				25FFB48119CE2E0700D76AC2 /* LaunchScreen.xib in Resources */,
+				25FFB49A19CF255400D76AC2 /* ben.jpg in Resources */,
+				25FFB49719CF0A8200D76AC2 /* andrew.jpg in Resources */,
 				25FFB47E19CE2E0700D76AC2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25FFB49819CF0A8200D76AC2 /* andrew.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
