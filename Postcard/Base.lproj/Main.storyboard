@@ -58,6 +58,24 @@
                                     <action selector="sendMessageButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CuL-R8-WlA"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcC-y2-KQP">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="31" y="174" width="156" height="85"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMo-eA-488">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="31" y="174" width="156" height="85"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -67,6 +85,8 @@
                                 <exclude reference="LCE-x0-OKr"/>
                                 <exclude reference="phh-tl-AgO"/>
                                 <exclude reference="IUT-cp-zgV"/>
+                                <exclude reference="AcC-y2-KQP"/>
+                                <exclude reference="JMo-eA-488"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -76,6 +96,8 @@
                                 <include reference="LCE-x0-OKr"/>
                                 <include reference="phh-tl-AgO"/>
                                 <include reference="IUT-cp-zgV"/>
+                                <include reference="AcC-y2-KQP"/>
+                                <include reference="JMo-eA-488"/>
                             </mask>
                         </variation>
                     </view>
@@ -85,6 +107,7 @@
                         <outlet property="enterNameTextField" destination="YNF-bU-WPy" id="YA6-QV-C9Z"/>
                         <outlet property="messageButton" destination="IUT-cp-zgV" id="NSs-zd-DV3"/>
                         <outlet property="messageLabel" destination="phh-tl-AgO" id="F2J-wN-WSh"/>
+                        <outlet property="messageNameLabel" destination="JMo-eA-488" id="onj-l8-srp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
